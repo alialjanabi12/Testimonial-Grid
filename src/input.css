@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@theme {
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  /* Colors */
+  --color-strongCyan: hsl(171, 66%, 44%);
+  --color-lightBlue: hsl(233, 100%, 69%);
+  --color-darkGrayishBlue: hsl(210, 10%, 33%);
+  --color-grayishBlue: hsl(201, 11%, 66%);
+
+  /* Typography */
+  --font-sans: 'Barlow Semi Condensed', sans-serif;
+}
+/* https://tailwindcss.com/docs/theme#theme-variable-namespaces  */
